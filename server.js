@@ -1,4 +1,4 @@
-var	port = process.env.OPENSHIFT_NODEJS_PORT,
+var origin = 'http://originegameur.zz.vc/';
 	ip = process.env.OPENSHIFT_NODEJS_IP;
 
 var http = require('http'),
